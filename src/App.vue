@@ -10,13 +10,16 @@
     </div>
 
     <div
-      class="p-12 shadow-md bg-gradient-to-tl from-surface-0 to-surface-50 dark:from-surface-900 dark:to-surface-700/60 dark:border dark:border-surface-700 rounded-md"
+      class="p-12 text-center shadow-md bg-gradient-to-tl from-surface-0 to-surface-50 dark:from-surface-900 dark:to-surface-700/60 dark:border dark:border-surface-700 rounded-md"
     >
       <h1
-        class="text-xl font-extralight text-surface-700 dark:text-surface-0/80 mb-1"
+        class="text-4xl font-extralight text-surface-700 dark:text-surface-0/80 mb-4"
       >
         PrimeVue Tailwind Wind Preset
       </h1>
+      <span class="text-xl font-light text-surface-700 dark:text-surface-0/80">
+        "Showcase for components to be added soon."
+      </span>
      
     </div>
   </div>
