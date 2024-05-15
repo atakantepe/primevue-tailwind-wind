@@ -18,7 +18,3 @@ For more context on the changes and updates, you can refer to these issues:
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. 
 I appreciate all the help in maintaining and improving this community preset.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
