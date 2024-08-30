@@ -1,5 +1,8 @@
 export default {
     accordiontab: {
+        root: {
+            class: ['mb-0', 'border-b border-surface-200 dark:border-surface-700']
+        },
         header: ({ props }) => ({
             class: [
                 // Sizing
@@ -16,7 +19,7 @@ export default {
                 { 'select-none pointer-events-none cursor-default opacity-60': props?.disabled }
             ]
         }),
-        headerAction: ({ context }) => ({
+        headerAction: ({ props }) => ({
             class: [
                 //Font
                 'font-semibold',
@@ -40,9 +43,9 @@ export default {
                 'cursor-pointer no-underline select-none'
             ]
         }),
-        headerIcon: {
-            class: 'inline-block ml-2'
-        },
+        headerIcon: ({ context }) => ({
+            class: ['inline-block ml-2', { 'text-surface-900 dark:text-surface-0': context.active }]
+        }),
         headerTitle: {
             class: 'leading-7'
         },
@@ -54,7 +57,11 @@ export default {
                 // Spacing
                 'pr-12 pt-2',
 
+                //Shape
+                'border-0 rounded-none',
+
                 // Color
+                'bg-surface-0 dark:bg-surface-900',
                 'text-surface-600 dark:text-surface-0/70'
             ]
         },
