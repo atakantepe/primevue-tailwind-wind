@@ -1,8 +1,5 @@
 export default {
     accordiontab: {
-        root: {
-            class: ['mb-0', 'border-b border-surface-200 dark:border-surface-700']
-        },
         header: ({ props }) => ({
             class: [
                 // Sizing
@@ -19,7 +16,7 @@ export default {
                 { 'select-none pointer-events-none cursor-default opacity-60': props?.disabled }
             ]
         }),
-        headerAction: ({ props }) => ({
+        headerAction: {
             class: [
                 //Font
                 'font-semibold',
@@ -42,7 +39,7 @@ export default {
                 // Misc
                 'cursor-pointer no-underline select-none'
             ]
-        }),
+        },
         headerIcon: ({ context }) => ({
             class: ['inline-block ml-2', { 'text-surface-900 dark:text-surface-0': context.active }]
         }),
