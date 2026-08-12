@@ -1,3 +1,5 @@
+
+
 # PrimeVue Tailwind Wind Preset
 
 ![wind-preset](https://github.com/atakantepe/primevue-tailwind-wind/assets/28745098/ff08008e-f25e-498a-9064-f2b99437e61f)
@@ -5,6 +7,15 @@
 The Wind preset was one of the main presets for the PrimeVue Tailwind project. With the release of the Aura preset, the Wind preset has become a community-maintained preset. 
 
 This preset can be accessed from the [PrimeVue Tailwind Gallery](https://tailwind.primevue.org/gallery/).
+
+## Installation
+
+To set up the project locally, install the dependencies and run the development server:
+
+```bash
+npm install
+npm run dev
+```
 
 ## Current Status
 
